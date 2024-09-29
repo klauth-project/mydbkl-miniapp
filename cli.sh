@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 if [ $# != 1 ]; then
-  echo "Usage: $0 <name>"
+  echo "Usage: mydbkl-miniapp <name>"
   exit 0
 else 
   _name=$1
