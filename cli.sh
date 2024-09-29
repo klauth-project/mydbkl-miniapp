@@ -29,3 +29,12 @@ cd ../../
 rm -rf .temp
 
 echo 'DONE.'
+echo '---------------------------------'
+echo ' Usage:'
+echo '    cd' $_lowercase
+echo '    flutter pub get'
+echo '---------------------------------'
+echo ' Import the package into pubspec.yaml:'
+echo '    '$_lowercase':'
+echo '      path: ../'$_lowercase
+echo '---------------------------------'
