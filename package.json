@@ -1,0 +1,11 @@
+{
+  "name": "mydbkl-miniapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/klauth-project/mydbkl-miniapp.git",
+  "author": "kayrules <kayrules@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "mydbkl-miniapp": "./cli.sh"
+  }
+}
