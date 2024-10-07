@@ -7,7 +7,9 @@ class FullscreenDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: const Text('Fullscreen Dialog'),
         automaticallyImplyLeading: false, // Remove the default back button
         actions: [
