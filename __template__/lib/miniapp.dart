@@ -19,6 +19,12 @@ class __TITLE__ {
     Get.put(__TITLE__Controller());
   }
 
+  static Map<String, dynamic> configs() {
+    return {
+      'headerColor': Colors.white,
+    };
+  }
+
   static Widget listener(
       {required Widget Function(Map<String, dynamic>) builder}) {
     return __TITLE__Listener(builder: builder);

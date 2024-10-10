@@ -12,11 +12,12 @@ class SecondScreenState extends State<SecondScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.white,
         title: const Text('Second Screen'),
+        backgroundColor: Colors.white,
+        foregroundColor: const Color(0xFFDC3263),
       ),
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           children: [
